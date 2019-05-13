@@ -3,5 +3,5 @@ package common.entities
 import java.io.Serializable
 
 class UserTokens(
-    val google: String = ""
+    val google: ClientTokens? = null
 ) : Serializable
